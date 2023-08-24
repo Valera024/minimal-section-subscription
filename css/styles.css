@@ -44,10 +44,11 @@ img {
 
 .subscription {
   padding: 64px 0;
+  background-color: #fff;
 }
 
 .subscription-container {
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 .title {
@@ -183,7 +184,7 @@ form {
   fill: White;
 }
 
-.btn {
+.btn-send {
   display: flex;
   font-family: "Roboto";
   width: 224px;
@@ -196,19 +197,24 @@ form {
   color: white;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 12px;
   margin-bottom: 30px;
   cursor: pointer;
   transition: background-color 250ms ease-in;
 }
 
-.btn:focus,
-.btn:hover {
+.btn-send:focus,
+.btn-send:hover {
   background-color: #061835;
 }
 
 @media screen and (min-width: 768px) {
   .subscription {
     padding: 100px 0;
+  }
+
+  .subscription-container {
+    padding: 0 32px;
   }
 
   .title {
@@ -254,8 +260,7 @@ form {
     font-size: 18px;
   }
 
-  .btn {
-    margin-top: 10px;
+  .btn-send {
     margin-bottom: 64px;
   }
 }
@@ -268,15 +273,11 @@ form {
   .subscription-container {
     display: flex;
     justify-content: center;
+    padding: 0 172px;
     gap: 100px;
   }
 
-  .btn {
-    margin-top: 12px;
+  .btn-send {
     margin-bottom: 0;
-  }
-
-  .subscription-img {
-    max-width: 460px;
   }
 }
