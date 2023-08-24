@@ -21,21 +21,22 @@
                 <form class="form" id="myForm">
                     <div class="container-user-name">
                         <label for="user-name" class="label-user-name"></label>
-                        <input type="text" id="user-name" placeholder="Name" class="input-user-name" pattern=".{2,16}"
-                            required>
+                        <input type="text" id="user-name" name="user-name" placeholder="Name" class="input-user-name"
+                            pattern=".{2,16}" required>
                         <svg class="error">
                             <use href="./img/icons.svg#icon-error"></use>
                         </svg>
                     </div>
                     <div class="container-user-email">
                         <label for="user-email" class="label-user-email"></label>
-                        <input type="email" id="user-email" placeholder="E-mail" class="input-user-email" required>
+                        <input type="email" id="user-email" name="user-email" placeholder="E-mail"
+                            class="input-user-email" required>
                         <svg class="error">
                             <use href="./img/icons.svg#icon-error"></use>
                         </svg>
                     </div>
                     <div class="container-checkbox">
-                        <input type="checkbox" id="user-agree" name="user-agree" value="true"
+                        <input type="checkbox" id="user-agree" name="agree-checkbox" name="user-agree" value="true"
                             class="input-checkbox  visually-hidden">
                         <label for="user-agree" class="label-checkbox">
                             <span class="label-span">
